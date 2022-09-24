@@ -2,13 +2,20 @@ public class Calculator {
 
     public static void main(String[] args) {
 
-        int firstNumber = 1;
-        int secondNumber = 3;
-        int ergebnis = firstNumber + secondNumber;
+        int p1 = 1;
+        int p2 = 3;
+        int ergebnis = p1 + p2;
         String name = "Martina";
 
+        //SOUTv
+        System.out.println("p2 = " + p2);
+
+        //STRG + ALT + v -> variable erzeugen
+
+
+
         System.out.println("Meine Name ist: " + name);
-        System.out.println(firstNumber + "+" + secondNumber + "=" + ergebnis);
+        System.out.println(p1 + "+" + p2 + "=" + ergebnis);
 
     }
 }
