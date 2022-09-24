@@ -39,7 +39,7 @@ public class ArithmetischeOperatoren {
         System.out.println(a++);
         System.out.println("a = " + a);
 
-        //++b
+        //++b vor
         System.out.println("++b");
         System.out.println(++b);
         System.out.println("b = " + b);
