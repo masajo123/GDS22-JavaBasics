@@ -34,20 +34,15 @@ public class ArithmetischeOperatoren {
         System.out.println("Result: " + result);
 
 
+        //a++ bedeutet a = a + 1
+        System.out.println("a++");
+        System.out.println(a++);
+        System.out.println("a = " + a);
 
-/*
-    int addition = a + b;
-    int subtraktion = a - b;
-    int multiplikation = a * b;
-    int division = a/b;
-    int modulo = a%b;
-
-        System.out.println("Addieren: " + addition);
-        System.out.println("Subtrahieren: " + subtraktion);
-        System.out.println("Multiplizieren: " + multiplikation);
-        System.out.println("Dividieren: " + division);
-        System.out.println("Modulo: " + modulo);
-*/
+        //++b
+        System.out.println("++b");
+        System.out.println(++b);
+        System.out.println("b = " + b);
 
 
     }
